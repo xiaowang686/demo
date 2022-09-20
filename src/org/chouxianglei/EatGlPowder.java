@@ -1,4 +1,4 @@
-package org;
+package org.chouxianglei;
 
 public class EatGlPowder extends Powder{
     @Override

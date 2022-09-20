@@ -22,6 +22,7 @@ public class Student {
     public Student(){}
 
     public String getName() {
+        System.out.println(name);
         return name;
     }
 
@@ -52,5 +53,9 @@ public class Student {
                 ", age=" + age +
                 ", avg='" + avg + '\'' +
                 '}';
+    }
+
+    public void show(){
+        System.out.println("-----------------------------");
     }
 }
